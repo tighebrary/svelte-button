@@ -90,7 +90,7 @@
     "style": ""
   },
   {
-    "text": "It IS fun to count",
+    "text": "It *is* fun to count",
     "presses": 30,
     "style": ""
   },
@@ -125,7 +125,7 @@
     "style": ""
   },
   {
-    "text": "What would I know though?",
+    "text": "But what would I know?",
     "presses": 41,
     "style": ""
   },
@@ -155,12 +155,12 @@
     "style": ""
   },
   {
-    "text": "I wish",
+    "text": "I wish I were a button",
     "presses": 47,
     "style": ""
   },
   {
-    "text": "A button would know \nwhat's going on",
+    "text": "A button would know \nwhy you keep pressing",
     "presses": 48,
     "style": ""
   },
@@ -180,8 +180,7 @@
     "style": ""
   },
   {
-    "text": "I am not a button",
     "presses": 52,
-    "style": ""
+    "final": true
   }
 ]

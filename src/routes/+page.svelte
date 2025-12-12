@@ -10,6 +10,9 @@
   $effect(() => {
     if (match) {
       buttonLabel = match.text;
+      if (match.final) {
+        count = 0
+      }
     }
     else {
       buttonLabel = `You've pressed ${count} times`;
