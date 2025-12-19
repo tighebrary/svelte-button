@@ -3,6 +3,8 @@
   import data from '$lib/data.json';
   
   let count = $state(0);
+  let loops = $derived(0);
+  let story_length = $derived(data.find(d => d.final === true));
 
   let match = $derived(data.find(d => d.presses === count));
   
@@ -11,11 +13,13 @@
     if (match) {
       buttonLabel = match.text;
       if (match.final) {
-        count = 0
+        count = 0;
+        loops += 1;
       }
     }
     else {
       buttonLabel = `You've pressed ${count} times`;
+      buttonLabel = `You've pressed ${loops * story_length.presses + count} times`;
     }
   });
   
